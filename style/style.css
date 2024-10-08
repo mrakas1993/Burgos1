@@ -74,6 +74,9 @@ button{
     background-size: cover;
     padding-top: 142px;
     padding-bottom: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .header-bottom>p{
     font-family: "Open Sans", sans-serif;
@@ -83,4 +86,121 @@ button{
 }
 .header-bottom>p>a{
     color: #dedede;
+}
+.header-bottom>h1 {
+    margin-top: 8px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 79px;
+    color: #fff;
+    margin-bottom: 11px;
+}
+.banner-bottom {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #faf9f9;
+    max-width: 320px;
+    text-align: center;
+}
+.banner{
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 100px 100px;
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+.marker{
+    font-family: "OpenSans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 128.6%;
+    color: #ffffff;
+    background-color: #F37335;
+    display: inline-block;
+    padding: 5px 18.5px;
+    border-radius: 14px;
+}
+.banner>h2{
+    color: #FFFFFF;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 126.7%;
+    margin-bottom: 10px;
+}
+.text-banner{
+    color: rgb(250, 249, 249);
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+    max-width: 308px;
+    margin-bottom: 15px;
+}
+.banner>button{
+    color: rgb(30, 47, 64);
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: rgb(251, 183, 49);  
+    padding: 20px 26px;
+}
+.title{
+    color: rgb(27, 42, 73);
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 127.2%;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+.burgers-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.burgers-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.burgers-item>h3{
+    color: rgb(27, 42, 73);
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.burgers-item>p{
+    color: rgb(151, 151, 151);
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.burgers-item>button{
+    color: rgb(30, 47, 64);
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: rgb(251, 183, 49);
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    margin-bottom: 50px;
+}
+.burgers-item>button>img{
+    margin-right: 10px;
 }
